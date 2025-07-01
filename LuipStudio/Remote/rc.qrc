@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>UI/Style.qss</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>UI/svg/toolbutton/add.svg</file>
+        <file>UI/svg/toolbutton/exit.svg</file>
+        <file>UI/svg/toolbutton/refresh.svg</file>
+        <file>UI/svg/toolbutton/settings.svg</file>
+        <file>UI/svg/client.svg</file>
+        <file>UI/svg/logo.svg</file>
+        <file>UI/svg/toolbutton/server.svg</file>
+        <file>UI/svg/dir.svg</file>
+        <file>UI/svg/left.svg</file>
+        <file>UI/svg/right.svg</file>
+        <file>UI/svg/toolbutton/check.svg</file>
+        <file>UI/svg/toolbutton/no.svg</file>
+        <file>UI/svg/toolbutton/yes.svg</file>
+        <file>udhcpd.conf</file>
+        <file>UI/svg/startLogo.jpg</file>
+    </qresource>
+</RCC>

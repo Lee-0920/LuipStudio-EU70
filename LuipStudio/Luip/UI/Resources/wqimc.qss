@@ -1,0 +1,443 @@
+﻿/********************************************************************************/
+QPushButton#transparentButton{
+        background:transparent;
+}
+
+/********************************************************************************/
+QDialog{
+        border:1px solid blue;
+        color:white;
+        border-style: outset;
+}
+
+/********************************************************************************/
+/*主界面蓝色按键*/
+QPushButton#mainBlueButton{
+        border-radius:25px;
+        border:1px solid gray;
+        background:rgb(0, 100, 250);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#mainBlueButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#mainBlueButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*主界面红色按键*/
+QPushButton#mainRedButton{
+        border-radius:25px;
+        border:1px solid gray;
+        background:rgb(255, 0, 0);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#mainRedButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#mainRedButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*常规蓝色按键*/
+QPushButton#brownButton{
+        border-radius:10px;
+        border:1px solid gray;
+        background:rgb(0, 100, 250);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#brownButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#brownButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*常规红色按键*/
+QPushButton#redButton{
+        border-radius:10px;
+        border:1px solid gray;
+        background:rgb(255, 0, 0);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#redButton::pressed{
+    color:rgb(173, 115, 0);
+    background:white;
+}
+
+QPushButton#redButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*常规橙色色按键*/
+QPushButton#orangeButton{
+        border-radius:5px;
+        border:1px solid gray;
+        background:rgb(220, 128, 0);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#orangeButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#orangeButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*常规绿色按键*/
+QPushButton#greenButton{
+        border-radius:5px;
+        border:1px solid gray;
+        background:rgb(50, 200, 50);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#greenButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#greenButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*小下拉框*/
+QComboBox#brownComboBox{
+        color:black;
+        background:rgb(214, 214, 214);
+}
+
+QComboBox#brownComboBox:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*主界面下拉框*/
+QComboBox#runStatusComboBox{
+        border-radius:25px;
+        border:1px solid gray;
+        background:rgb(0, 100, 250);
+        color:white;
+        border-style: outset;
+}
+
+QComboBox#runStatusComboBox QAbstractItemView {
+    outline: 0px solid gray;
+    border: 1px solid black;
+    color: white;
+    font: 30px;
+    background-color: rgb(0, 100, 250);
+    selection-background-color: rgb(0, 100, 250);
+}
+
+QComboBox#runStatusComboBox QAbstractItemView::item {
+    height: 70px;
+}
+
+QComboBox#runStatusComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    border-left-width: 0px;
+    border-left-color:rgb(0, 100, 250);
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox#runStatusComboBox::down-arrow {
+    width: 15px;
+    background: transparent;
+    padding: 0px 0px 0px 0px;
+    image: url(:/img/img/down1.png);
+}
+
+QComboBox#runStatusComboBox:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+/*大下拉框*/
+QComboBox#bigComboBox{
+        color:black;
+        background:rgb(184, 184, 184);
+}
+
+QComboBox#bigComboBox:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+QPushButton#controlButton{
+        border-radius:5px;
+        border:1px solid gray;
+        background:rgb(173, 115, 0);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#controlButton:hover:enabled{
+        background:rgb(226, 195, 17);
+}
+
+QPushButton#controlButton:pressed:enabled{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#controlButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+/********************************************************************************/
+QListView#commonListView{
+    background-color:rgb(240, 240, 240);
+    color:black;
+}
+
+QListView#commonListView::item:selected{
+    background-color:rgb(0, 100, 250);
+    color:white;
+}
+
+/********************************************************************************/
+QToolButton#functionButton{
+        background:transparent;
+}
+
+QToolButton#functionButton:hover{
+        border-radius:5px;
+        border:1px solid rgb(210, 225, 230);
+}
+
+QToolButton#transparentToolButton{
+        background:transparent;
+}
+
+QToolButton:pressed{
+background:transparent;
+
+}
+
+QToolButton:hover{
+
+background:QColor(238, 238, 255, 255);
+
+}
+
+/********************************************************************************/
+QLabel#borderLabel{
+    color: gray;
+    background-color: white;
+    border: 0.5px solid lightblue;
+    border-radius: 5px;
+}
+
+QLabel#productTypeLabel{
+    color: rgb(17, 88, 255);
+    background:transparent;
+}
+
+QLabel#measureLabel{
+    color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+QLabel#estimateResultLabel{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+QLabel#proformaLabel{
+    color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+
+QLabel#softwareTitle{
+   color:white;
+}
+QLabel#blueLabel{
+    color: blue;
+}
+QLabel#redLabel{
+    color: red;
+}
+
+QLabel#ligthGreenLabel{
+    color: rgb(0, 132, 97);
+}
+
+QLabel#logLoadHintLabel{
+    color: rgb(17, 88, 255);
+    background:transparent;
+}
+
+QComboBox#ligthGreenComboBox{
+    color: rgb(0, 132, 97);
+}
+
+QProgressBar#measureProgressBar{
+    border:none;
+    background:rgb(210, 225, 240);
+    border-radius:3px;
+    text-align:center;
+}
+
+QProgressBar#measureProgressBar::chunk {
+background:rgb(60, 140, 220);
+border-radius:3px;
+}
+
+QSplitter::handle{
+    background:white;
+}
+
+QGroupBox#paramGroupBox::title {
+    color: rgb(68, 136, 0);
+}
+
+QGroupBox#meaResultGroupBox {
+    background-color: rgb(0, 0, 0);
+    border-radius:12px;
+    height:250;
+
+}
+
+QTabWidget::pane{
+    border:none;
+}
+
+QTabBar::tab{
+    background:rgb(100, 150, 150);
+    color:white;
+    width:12ex;
+    height:30ex;
+    font: bold 16px;
+}
+QTabBar::tab:hover{
+        background:rgb(115, 172, 172, 100);
+}
+QTabBar::tab:selected{
+    border-color: white;
+    background:white;
+    color:rgb(145, 70, 0);
+    font: bold 16px;
+}
+
+QRadioButton#radiobuttonone{
+
+    spacing:10px;
+}
+
+QRadioButton#radiobuttonone::indicator {
+        width: 32px;
+        height: 32px;
+}
+
+QRadioButton#radiobuttonone::indicator::checked {
+        image: url(:/img/img/rbtnchecked.png);
+}
+
+QRadioButton#radiobuttonone::indicator::unchecked {
+        image: url(:/img/img/rbtnunchecked.png);
+}
+
+QCheckBox#checkboxone{
+
+    spacing:10px;
+}
+
+QCheckBox#checkboxone::indicator {
+        width: 33px;
+        height: 33px;
+}
+
+QCheckBox#checkboxone::indicator::checked {
+        image: url(:/img/img/check.png);
+}
+
+QCheckBox#checkboxone::indicator::unchecked {
+        image: url(:/img/img/unCheck.png);
+}
+
+QCheckBox#checkboxtwo{
+
+    spacing:10px;
+}
+
+QCheckBox#checkboxtwo::indicator {
+        width: 64px;
+        height: 40px;
+}
+
+QCheckBox#checkboxtwo::indicator::checked {
+        image: url(:/img/img/check.png);
+}
+
+QCheckBox#checkboxtwo::indicator::unchecked {
+        image: url(:/img/img/unCheck.png);
+}
+QListView::item
+{
+    min-height:40px;
+}
+
+QListView::item:selected:active
+{
+  background:rgbrgb(85, 170, 255);
+}
+
+QProgressBar{
+        border-radius:8px;
+        border-style: outset;
+        background:rgb(204, 204, 204);
+}
+
+QLineEdit{
+    border: 1px solid #50A3F0;
+    border-radius: 5px;
+    padding: 2px;
+    background: none;
+    selection-background-color: #0F7DBE;
+}
+QTableWidgetItem::indicator::checked {
+image: url(:/img/img/check.png);
+}
+QTableWidgetItem::indicator::unchecked {
+image: url(:/img/img/unCheck.png);
+}

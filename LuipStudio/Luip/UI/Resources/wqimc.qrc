@@ -1,0 +1,65 @@
+﻿<RCC>
+    <qresource prefix="/toolWidget">
+        <file alias="administrorUser">img/toolWidget/administrorUser.png</file>
+        <file alias="generalUser">img/toolWidget/generalUser.png</file>
+        <file alias="maintainUser">img/toolWidget/maintainUser.png</file>
+        <file alias="home">img/toolWidget/home.png</file>
+        <file alias="data">img/toolWidget/data.png</file>
+        <file alias="signal">img/toolWidget/signal.ico</file>
+        <file alias="setting">img/toolWidget/setting.ico</file>
+        <file alias="information">img/toolWidget/information.ico</file>
+        <file alias="mainTain">img/toolWidget/mainTain.ico</file>
+        <file alias="methodSetting">img/toolWidget/methodSetting.png</file>
+        <file alias="methodInfo">img/toolWidget/methodInfo.png</file>
+        <file alias="methodQuit">img/toolWidget/methodQuit.png</file>
+        <file alias="permission">img/toolWidget/permission.png</file>
+        <file alias="user">img/toolWidget/user.png</file>
+    </qresource>
+    <qresource prefix="/skin">
+        <file alias="17">img/skin/17.jpg</file>
+        <file alias="17_big">img/skin/17_big.jpg</file>
+        <file alias="18">img/skin/18.jpg</file>
+        <file alias="19_big">img/skin/19_big.jpg</file>
+        <file alias="20_big">img/skin/20_big.jpg</file>
+    </qresource>
+    <qresource prefix="/sysButton">
+        <file alias="close">img/sysButton/close.png</file>
+        <file alias="close_hover">img/sysButton/close_hover.png</file>
+        <file alias="close_pressed">img/sysButton/close_pressed.png</file>
+        <file alias="min">img/sysButton/min.png</file>
+        <file alias="min_hover">img/sysButton/min_hover.png</file>
+        <file alias="min_pressed">img/sysButton/min_pressed.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>wqimc.qss</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file alias="logo">img/logo.png</file>
+        <file alias="WQIMC">WQIMC.ico</file>
+        <file>img/check.png</file>
+        <file>img/unCheck.png</file>
+        <file>img/rbtnchecked.png</file>
+        <file>img/rbtnunchecked.png</file>
+        <file alias="cloud-connected">img/cloud-connected.png</file>
+        <file alias="cloud-disconnected">img/cloud-disconnected.png</file>
+        <file alias="data-offline">img/data-offline.png</file>
+        <file alias="data-online">img/data-online.png</file>
+        <file alias="alert">img/alert.png</file>
+        <file alias="data-calibrate">img/data-calibrate.png</file>
+        <file alias="data-fault">img/data-fault.png</file>
+        <file alias="data-maintain">img/data-maintain.png</file>
+        <file alias="warning">img/warning.png</file>
+        <file>img/logo_576_120.bmp</file>
+        <file alias="reagent">img/reagent.png</file>
+        <file>img/down.png</file>
+        <file>img/down1.png</file>
+        <file>img/highTemperature.png</file>
+        <file>img/lowTemperature.png</file>
+        <file>img/blFailed.gif</file>
+        <file>img/blOK.gif</file>
+        <file>img/debug.png</file>
+    </qresource>
+    <qresource prefix="/config">
+        <file alias="log4cpp.conf">../../log4cpp.conf</file>
+    </qresource>
+</RCC>

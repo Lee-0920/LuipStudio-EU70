@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.core.default.config.1327597587">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1327597587" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="Qt Release Build" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>release</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Qt Debug Build" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>debug</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtPlatformSupport" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtXmlPatterns" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtWidgets" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtSql" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtMultimediaWidgets" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtQml" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtMultimedia" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtPurchasing" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtXml" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtSensors" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtScxml" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtBluetooth" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtTest" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtZlib" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtSerialPort" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtSerialBus" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtConcurrent" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtGamepad" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtNetwork" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtSvg" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtNfc" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtPrintSupport" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtWebChannel" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtCharts" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtGui" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtCore" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtQmlDevTools" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtPlatformHeaders" kind="inc" path="" system="true"/>
+		<pathentry base-path="/opt/tq335x/qt5.7.1/include" include="QtWebSockets" kind="inc" path="" system="true"/>
+	</storageModule>
+</cproject>

@@ -1,0 +1,4 @@
+config.producerAuthorization =
+{
+["enable"]=true,
+}

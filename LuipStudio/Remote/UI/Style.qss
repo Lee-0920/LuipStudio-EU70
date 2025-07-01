@@ -1,0 +1,165 @@
+﻿/************ QWidget ****************/
+QWidget {
+    background : #ffffff;
+}
+
+QWidget#mainWidget {
+    background : black;
+}
+
+QWidget#explorerWidget {
+    background : white;
+}
+
+QWidget#shadowWidget {
+    background: #66000000;
+}
+
+QWidget#headerWidget {
+    background: #008ECA;
+}
+
+QWidget#leftWidget {
+    background: #008ECA;
+    max-width: 200px;
+}
+
+QWidget#rightWidget {
+    background: #ffffff;
+}
+
+QWidget#addWidget {
+    border: 1px solid #008ECA;
+    background: #ffffff;
+    min-width: 400px;
+    /* min-height: 300px; */
+}
+
+/************ QLabel ****************/
+
+QLabel#TitleLabel {
+    font-weight: bold;
+    background: transparent;
+    max-height: 30px;
+    color: #ffffff;
+}
+
+QLabel#ToolLabel {
+    font-weight: bold;
+    background : transparent;
+    max-height: 20px;
+    color: #ffffff;
+}
+
+QLabel#HeaderLabel {
+    font-weight: bold;
+    background: transparent;
+    max-height: 20px;
+    color: #ffffff;
+}
+
+
+/************ QPushButton ****************/
+
+QPushButton#DefaultButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+QPushButton#DelButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: #db3340;
+    color: #ffffff;
+}
+
+QPushButton#TitleButton {
+    border-style: none;
+    background: transparent;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QPushButton#IconButton {
+    border-style: none;
+    border-radius: 0px;
+    padding:8px;
+    background: #db3340;
+    color: #ffffff;
+}
+
+QPushButton#ToolButton {
+    border-style: none;
+    border-radius: 0px;
+    padding-top:8px;
+    padding-bottom:8px;
+    background: transparent;
+    color: #ffffff;
+}
+
+QPushButton#ToolButton::hover {
+    background: #66000000;
+}
+
+QPushButton#ToolButton::pressed {
+    background: #66000000;
+}
+
+QPushButton#ExitButton {
+    border-style: none;
+    border-radius: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #db3340;
+    color: #ffffff;
+}
+
+QPushButton#ReconnectButton {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #008ECA;
+    color: #ffffff;
+    min-width: 200px;
+}
+
+
+/************ QListWidget ****************/
+QListWidget#ClientListWidget {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+
+QListWidget#ClientListWidget::item {
+    padding-left:10px;
+    padding-top:8px;
+    padding-bottom:8px;
+    color: #ffffff;
+    background: transparent;
+}
+
+QListWidget#ClientListWidget::item:hover {
+    background: #66000000;
+}
+
+QListWidget#ClientListWidget::item:selected {
+    border-left: 3px solid #ffffff;
+    background: #66000000;
+}
+
+/************ QTableWidget ****************/
+QTableWidget {
+    text-align: center;
+    padding:5px;
+}
+
+QTableWidget QHeaderView::section {
+    text-align: center;
+}

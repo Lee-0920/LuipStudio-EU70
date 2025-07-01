@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file alias="LuipEditor">Resources/LuipEditor.ico</file>
+    </qresource>
+    <qresource prefix="/png">
+        <file alias="about">Resources/about.png</file>
+        <file alias="copy">Resources/copy.png</file>
+        <file alias="delete">Resources/delete.png</file>
+        <file alias="edit">Resources/edit.png</file>
+        <file alias="insert">Resources/insert.png</file>
+        <file alias="new">Resources/new.png</file>
+        <file alias="open">Resources/open.png</file>
+        <file alias="save">Resources/save.png</file>
+        <file alias="setting">Resources/setting.png</file>
+        <file alias="filter">Resources/filter.png</file>
+    </qresource>
+</RCC>
